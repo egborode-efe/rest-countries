@@ -1,0 +1,17 @@
+:root {
+  --bg-element-colour: hsl(209, 23%, 22%);
+  --bg-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+}
+
+.light-mode {
+  --bg-element-colour: hsl(0, 0%, 100%);
+  --bg-color: hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+}
+.bg-elements {
+  background-color: var(--bg-element-colour);
+}
+.custom-text-white {
+  color: var(--text-color);
+}
